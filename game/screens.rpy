@@ -283,7 +283,7 @@ screen quick_menu():
             yalign 1.0
 
             # textbutton _("Autoplay") action Preference("auto-forward", "toggle")
-            textbutton _("Back") action Rollback() 
+            # textbutton _("Back") action Rollback() 
             # textbutton _("Skip Chapter") action Skip() alternate Skip(fast=True, confirm=True)            xalign 1.0
            
 
